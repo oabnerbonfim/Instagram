@@ -3,6 +3,12 @@ export default function Stories() {
     { img: "assets/img/9gag.svg", user: "9gag" },
     { img: "assets/img/meowed.svg", user: "meowed" },
     { img: "assets/img/barked.svg", user: "barked" },
+    { img: "assets/img/9gag.svg", user: "9gag" },
+    { img: "assets/img/meowed.svg", user: "meowed" },
+    { img: "assets/img/barked.svg", user: "barked" },
+    { img: "assets/img/9gag.svg", user: "9gag" },
+    { img: "assets/img/meowed.svg", user: "meowed" },
+    { img: "assets/img/barked.svg", user: "barked" },
   ];
 
   return (
