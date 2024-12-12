@@ -305,7 +305,7 @@ ion-icon {
   color: black;
 }
 
-.liked ion-icon{
+.liked {
   color: red;
 }
 

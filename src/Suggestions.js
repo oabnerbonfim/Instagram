@@ -2,6 +2,8 @@ export default function Suggestions() {
   const suggestions = [
     { img: "assets/img/bad.vibes.memes.svg", name: "bad.vibes.memes", reason: "Segue você" },
     { img: "assets/img/chibirdart.svg", name: "chibirdart", reason: "Segue você" },
+    { img: "assets/img/smallcutecats.svg", name: "smallcutecats", reason: "Segue você" },
+
   ];
 
   return (

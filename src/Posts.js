@@ -18,6 +18,14 @@ export default function Posts() {
       likedByText: "adorable_animals",
       likes: 99159,
     },
+    {
+      userImg: "assets/img/filomoderna.svg",
+      userName: "filomoderna",
+      contentImg: "assets/img/gato.jpg",
+      likedByImg: "assets/img/razoesparaacreditar.svg",
+      likedByText: "razoesparaacreditar",
+      likes: 1,
+    },
   ];
 
   return (
@@ -72,7 +80,7 @@ function Post({ userImg, userName, contentImg, likedByImg, likedByText, likes })
             <ion-icon
               name={isLiked ? "heart" : "heart-outline"}
               onClick={toggleLike}
-              className={isLiked ? "liked" : ""}
+              class={isLiked ? "liked" : ""}
             ></ion-icon>
             <ion-icon name="chatbubble-outline"></ion-icon>
             <ion-icon name="paper-plane-outline"></ion-icon>
